@@ -4,8 +4,8 @@ MorphOS
 Getting started
 ---------------
 
-Check out the [AOSP build instructions](http://source.android.com/setup) before starting with MorphOS
-Pay attention to [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+Check out the [AOSP build instructions](http://source.android.com/setup) before starting with MorphOS  
+> Pay attention to [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the MorphOS trees, use a command like this:
 ```
@@ -32,24 +32,20 @@ Build MorphOS
 
 When the device/kernel sources are downloaded, you are ready to make MorphOS
 ```
-
 make bacon
 ```
 
 Alternately, you can use the mka command to build with enhanced scheduling and multiple threads:
 ```
-
 mka bacon
 ```
 
 Remember to fetch updates every now and then!
 ```
-
 repo sync
 ```
 
 And clean your built files from time to time:
 ```
-
 make clean && make clobber
 ```
