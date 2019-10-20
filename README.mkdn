@@ -26,7 +26,6 @@ Once the sync is finished, use the following commands to pull device/kernel sour
 breakfast $(device)
 ```
 Where $(device) is the codename of the device you want to build (ex. cheeseburger for OP5)
-```
 
 Build MorphOS
 -------------
