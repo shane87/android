@@ -37,6 +37,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="android" name="shane87/android" remote="shane87" />
+  <project path="vendor/morphos" name="shane87/vendor_morphos" remote="shane87" />
 
   <!-- AOSP/LOS Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
