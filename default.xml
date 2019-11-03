@@ -5,6 +5,10 @@
            fetch=".."
            review="review.lineageos.org" />
 
+  <remote  name="shane87"
+           fetch=".."
+           revision="/refs/heads/pie" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -21,9 +25,9 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- AOSP Projects -->
+  <!-- MorphOS Projects -->
 
-  <project path="build/make" name="shane87/build" groups="pdk" revision="pie" >
+  <project path="build/make" name="shane87/build" groups="pdk" remote="shane87" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -32,6 +36,9 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="android" name="shane87/android" remote="shane87" />
+
+  <!-- AOSP/LOS Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
