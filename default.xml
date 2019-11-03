@@ -38,7 +38,7 @@
   </project>
   <project path="android" name="shane87/android" remote="shane87" />
   <project path="vendor/morphos" name="shane87/vendor_morphos" remote="shane87" />
-  <project path="build/soong" name="shane87/android_build_soong" groups="pdk,tradefed" remote="shane87" >
+  <project path="build/soong" name="shane87/build_soong" groups="pdk,tradefed" remote="shane87" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
