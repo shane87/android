@@ -7,7 +7,7 @@
 
   <remote  name="shane87"
            fetch=".."
-           revision="/refs/heads/pie" />
+           revision="refs/heads/pie" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
