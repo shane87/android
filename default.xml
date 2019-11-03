@@ -46,6 +46,7 @@
   <project path="frameworks/native" name="shane87/frameworks_native" groups="pdk" remote="shane87" />
   <project path="frameworks/av" name="shane87/frameworks_av" groups="pdk" remote="shane87" />
   <project path="lineage-sdk" name="shane87/lineage-sdk" remote="shane87" />
+  <project path="packages/apps/LineageParts" name="shane87/packages_apps_LineageParts" remote="shane87" />
 
   <!-- AOSP/LOS Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
