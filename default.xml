@@ -48,6 +48,7 @@
   <project path="lineage-sdk" name="shane87/lineage-sdk" remote="shane87" />
   <project path="packages/apps/LineageParts" name="shane87/packages_apps_LineageParts" remote="shane87" />
   <project path="packages/apps/Settings" name="shane87/packages_apps_Settings" groups="pdk-fs" remote="shane87" />
+  <project path="packages/apps/SetupWizard" name="shane87/packages_apps_SetupWizard" remote="shane87" />
 
   <!-- AOSP/LOS Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
