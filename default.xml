@@ -50,6 +50,7 @@
   <project path="packages/apps/Settings" name="shane87/packages_apps_Settings" groups="pdk-fs" remote="shane87" />
   <project path="packages/apps/SetupWizard" name="shane87/packages_apps_SetupWizard" remote="shane87" />
   <project path="packages/services/Telephony" name="shane87/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="shane87" />
+  <project path="system/core" name="shane87/system_core" groups="pdk" remote="shane87" />
 
   <!-- AOSP/LOS Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -597,7 +598,7 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <!-- <project path="system/core" name="LineageOS/android_system_core" groups="pdk" /> -->
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
