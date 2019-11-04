@@ -5,6 +5,12 @@
            fetch=".."
            review="review.lineageos.org" />
 
+  <!-- los remote for roomservice. may use this in place of github remote eventually -->
+  <remote  name="los"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
   <remote  name="shane87"
            fetch=".."
            revision="refs/heads/pie" />
